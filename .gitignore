@@ -8,3 +8,20 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime state
+.runtime/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
